@@ -1,0 +1,31 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Sanchez",
+    "apellido": "Garcia",
+    "correo":"sanchez@garcia.com",
+    "telefonoFijo":"323434",
+    "celular":"3233323",
+    "direccion":"Cra45#01a-23"
+}
+
+###
+DELETE http://localhost:9000/api/3 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Astor",
+    "Apellido": "Garcia",
+    "correo":"Agarcia@facebook.com",
+    "telefonoFijo":"323434",
+    "celular":"3233323",
+    "direccion":"Cra45#01a-23"
+}
